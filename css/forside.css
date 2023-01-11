@@ -1,0 +1,668 @@
+html {
+  --lilla: #73455A;
+  --lyserød: #EFA39A;
+  --crem: #F2EBD5;
+  --lysebrun: #D9B596;
+  --brun: #B8977B;
+}
+  /* –––––––––––––––––––––– Font-face –––––––––––––––––––––– */
+  @font-face {
+    font-family: "AccidentalPresidency";
+    src: url("../fonte/AccidentalPresidency.ttf");
+  }
+  @font-face {
+    font-family: "Oswald";
+    src: url("../fonte/Oswald/Oswald-VariableFont_wght.ttf");
+  }
+  @font-face {
+    font-family: "OpenSans";
+    src: url("../fonte/OpenSans-Regular.ttf");
+  }
+
+  /* --------------------- Body--------------------- */
+
+body {
+  margin: 0; height: 100%; overflow: hidden
+}
+  /* --------------------- Bolde --------------------- */
+.col-md-12 {
+    height: 500px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.a-one {
+  width: 100px;
+  height: 100px;
+  background-color: var(--lilla);
+  /* opacity: 0.5; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: -300px;
+  left: 150px;
+  animation: MoveUpDown 5s linear infinite;
+}
+
+.a-two {
+  width: 150px;
+  height: 150px;
+  background-color: var(--brun);
+  /* opacity: 0.7; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  left: 200px;
+  animation: MoveUpDownTwo 9s linear infinite;
+}
+
+.a-three {
+  width: 120px;
+  height: 120px;
+  background-color: var(--lysebrun);
+  /* opacity: 0.2; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 120px;
+  left: 300px;
+  z-index: -1;
+  animation: MoveUpDownThree 5s linear infinite;
+}
+
+.a-four {
+  width: 80px;
+  height: 80px;
+  background-color: var(--lilla);
+  /* opacity: 0.4; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: MoveUpDownFour 15s linear infinite;
+}
+
+.a-five {
+  width: 50px;
+  height: 50px;
+  background-color: var(--lyseblå);
+  /* opacity: 0.9; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 200px;
+  right: 0;
+  animation: MoveUpDownFive 8s linear infinite;
+}
+
+.a-six {
+  width: 175px;
+  height: 175px;
+  background-color: var(--crem);
+  /* opacity: 0.6; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 250px;
+  right: 200px;
+  z-index: -1;
+  animation: MoveUpDownSix 7s linear infinite;
+}
+
+.a-seven {
+  width: 250px;
+  height: 250px;
+  background-color: var(--lyserød);
+  /* opacity: 0.3; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+  right: 0;
+  animation: MoveUpDownSeven 6s linear infinite;
+  z-index: -1;
+}
+
+.a-eight {
+  width: 75px;
+  height: 75px;
+  background-color: var(--crem);
+  /* opacity: 0.4; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 350px;
+  animation: MoveUpDownEight 11s linear infinite;
+}
+
+.a-nine {
+  width: 45px;
+  height: 45px;
+  background-color: var(--lysebrun);
+  /* opacity: 0.7; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+  animation: MoveUpDownNine 12s linear infinite;
+}
+
+.a-ten {
+  width: 150px;
+  height: 150px;
+  background-color: var(--lyserød);
+  /* opacity: 0.6; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: MoveUpDownTen 14s linear infinite;
+}
+  /* --------------------- Animation af bolde --------------------- */
+
+@keyframes a-one {
+  from { top: 0; left: 0; }
+  to   { top: 100px; left: 100px; }
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 300px;
+  }
+}
+
+@keyframes MoveUpDownTwo {
+  0%, 100% {
+    left: 0;
+  }
+  50% {
+    bottom: 500px;
+  }
+}
+
+@keyframes MoveUpDownThree {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 400px;
+  }
+}
+
+@keyframes MoveUpDownFour {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 350px;
+  }
+}
+
+@keyframes MoveUpDownFive {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 250px;
+  }
+}
+
+@keyframes MoveUpDownSix {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 500px;
+  }
+}
+
+@keyframes MoveUpDownSeven {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 375px;
+  }
+}
+
+@keyframes MoveUpDownEight {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 370px;
+  }
+}
+
+@keyframes MoveUpDownNine {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 475px;
+  }
+}
+
+@keyframes MoveUpDownTen {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 500px;
+  }
+}
+/* https://codepen.io/nerodev/pen/ajbdvg */
+/* --------------------- Overskrift--------------------- */
+.overskrift h1{
+    font-family:"AccidentalPresidency";
+    font-size: 150px;
+    text-align: center;
+    word-spacing:normal;
+    color: var(--lilla);
+    transition: 0.5s;
+    justify-content: center;
+    padding: 20% 0 20% 0;
+    font-stretch: normal;
+    z-index: 1;
+  }
+  
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  .overskrift h1 a:hover { 
+    -webkit-text-stroke: 0.2px var(--orange);
+    text-decoration: none;
+    color: transparent;
+  }
+  a:active { text-decoration: none; }
+
+
+@media screen and (max-width: 1600px) {
+  .overskrift h1{ 
+    text-align:center ;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .overskrift h1{ 
+    text-align:center ;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 860px) {
+  .col-md-12 {
+    height: 400px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.a-one {
+  width: 100px;
+  height: 100px;
+  background-color: var(--lilla);
+  /* opacity: 0.5; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: -300px;
+  left: 150px;
+  animation: MoveUpDown 5s linear infinite;
+}
+
+.a-two {
+  width: 150px;
+  height: 150px;
+  background-color: var(--brun);
+  /* opacity: 0.7; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  left: 200px;
+  animation: MoveUpDownTwo 9s linear infinite;
+}
+
+.a-three {
+  width: 120px;
+  height: 120px;
+  background-color: var(--lysebrun);
+  /* opacity: 0.2; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 120px;
+  left: 300px;
+  z-index: -1;
+  animation: MoveUpDownThree 5s linear infinite;
+}
+
+.a-four {
+  width: 80px;
+  height: 80px;
+  background-color: var(--lilla);
+  /* opacity: 0.4; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: MoveUpDownFour 15s linear infinite;
+}
+
+.a-five {
+  width: 50px;
+  height: 50px;
+  background-color: var(--lyseblå);
+  /* opacity: 0.9; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 200px;
+  right: 0;
+  animation: MoveUpDownFive 8s linear infinite;
+}
+
+.a-seven {
+  width: 250px;
+  height: 250px;
+  background-color: var(--lyserød);
+  /* opacity: 0.3; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+  right: 0;
+  animation: MoveUpDownSeven 6s linear infinite;
+  z-index: -1;
+}
+
+.a-eight {
+  width: 75px;
+  height: 75px;
+  background-color: var(--crem);
+  /* opacity: 0.4; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 350px;
+  animation: MoveUpDownEight 11s linear infinite;
+}
+
+.a-nine {
+  width: 45px;
+  height: 45px;
+  background-color: var(--lysebrun);
+  /* opacity: 0.7; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+  animation: MoveUpDownNine 12s linear infinite;
+}
+
+.a-ten {
+  width: 150px;
+  height: 150px;
+  background-color: var(--lyserød);
+  /* opacity: 0.6; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: MoveUpDownTen 14s linear infinite;
+}
+  /* --------------------- Animation af bolde --------------------- */
+@keyframes a-one {
+  from { top: 0; left: 0; }
+  to   { top: 100px; left: 100px; }
+}
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 300px;
+  }
+}
+
+@keyframes MoveUpDownTwo {
+  0%, 100% {
+    left: 0;
+  }
+  50% {
+    bottom: 500px;
+  }
+}
+
+@keyframes MoveUpDownThree {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 400px;
+  }
+}
+
+@keyframes MoveUpDownFour {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 350px;
+  }
+}
+
+@keyframes MoveUpDownFive {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 250px;
+  }
+}
+
+@keyframes MoveUpDownSeven {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 375px;
+  }
+}
+
+@keyframes MoveUpDownEight {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 370px;
+  }
+}
+
+@keyframes MoveUpDownNine {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 475px;
+  }
+}
+
+@keyframes MoveUpDownTen {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 500px;
+  }
+}
+}
+@media screen and (max-width: 600px) {
+  .overskrift h1{
+    font-family:"AccidentalPresidency";
+    font-size: 120px;
+    text-align: center;
+    justify-content: center;
+    padding: 20% 0 20% 0;
+    z-index: 1;
+  }
+.col-md-12 {
+    height: 90px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.a-one {
+  width: 100px;
+  height: 100px;
+  background-color: var(--lilla);
+  /* opacity: 0.5; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: -300px;
+  left: 150px;
+  animation: MoveUpDown 5s linear infinite;
+}
+.a-two {
+  width: 150px;
+  height: 150px;
+  background-color: var(--brun);
+  /* opacity: 0.7; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  left: 200px;
+  animation: MoveUpDownTwo 9s linear infinite;
+}
+.a-three {
+  width: 120px;
+  height: 120px;
+  background-color: var(--lysebrun);
+  /* opacity: 0.2; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 120px;
+  left: 300px;
+  z-index: -1;
+  animation: MoveUpDownThree 5s linear infinite;
+}
+.a-four {
+  width: 80px;
+  height: 80px;
+  background-color: var(--lilla);
+  /* opacity: 0.4; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: MoveUpDownFour 15s linear infinite;
+}
+.a-five {
+  width: 50px;
+  height: 50px;
+  background-color: var(--lyseblå);
+  /* opacity: 0.9; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 200px;
+  right: 0;
+  animation: MoveUpDownFive 8s linear infinite;
+}
+.a-eight {
+  width: 75px;
+  height: 75px;
+  background-color: var(--crem);
+  /* opacity: 0.4; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 350px;
+  animation: MoveUpDownEight 11s linear infinite;
+}
+.a-nine {
+  width: 45px;
+  height: 45px;
+  background-color: var(--lysebrun);
+  /* opacity: 0.7; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+  animation: MoveUpDownNine 12s linear infinite;
+}
+.a-ten {
+  width: 150px;
+  height: 150px;
+  background-color: var(--lyserød);
+  /* opacity: 0.6; */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: MoveUpDownTen 14s linear infinite;
+}
+  /* --------------------- Animation af bolde --------------------- */
+@keyframes a-one {
+  from { top: 0; left: 0; }
+  to   { top: 100px; left: 100px; }
+}
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 300px;
+  }
+}
+
+@keyframes MoveUpDownTwo {
+  0%, 100% {
+    left: 0;
+  }
+  50% {
+    bottom: 500px;
+  }
+}
+
+@keyframes MoveUpDownThree {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 400px;
+  }
+}
+
+@keyframes MoveUpDownFour {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 350px;
+  }
+}
+
+@keyframes MoveUpDownFive {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 250px;
+  }
+}
+@keyframes MoveUpDownEight {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 370px;
+  }
+}
+@keyframes MoveUpDownNine {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 475px;
+  }
+}
+@keyframes MoveUpDownTen {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 500px;
+  }
+}
+}

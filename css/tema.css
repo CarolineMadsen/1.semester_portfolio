@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+html {
+    --lilla: #73455A;
+    --lyserød: #EFA39A;
+    --crem: #F2EBD5;
+    --lysebrun: #D9B596;
+    --brun: #B8977B;
+  }
+/* –––––––––––––––––––––– Font-face –––––––––––––––––––––– */
+@font-face {
+    font-family: "AccidentalPresidency";
+    src: url("../fonte/AccidentalPresidency.ttf");
+  }
+  @font-face {
+    font-family: "Oswald";
+    src: url("../fonte/Oswald/Oswald-VariableFont_wght.ttf");
+  }
+
+  @font-face {
+    font-family: "OpenSans";
+    src: url("../fonte/OpenSans-Regular.ttf");
+  }
+/* -------------------------- MAIN --------------------------------- */
+/*------banner container------*/
+.wrapper {
+    background: url("../billeder/bagrundsbillede.png") no-repeat;
+    background-size: cover;
+    height: 80vh;
+    overflow: hidden;
+  }
+  
+  .wrapper .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+  }
+  
+  .center h1 {
+    color: #73455A;
+    font-family: "AccidentalPresidency";
+    font-size: 100px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+  }
+  .center h2 {
+    color: #73455A;
+    font-family: "Oswald";
+    font-size: 30px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+  }
+
+  /* tema_beskrivelse */
+.tema_beskrivelse {
+    font-family: "OpenSans";
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #73455A;
+    margin: 35px;
+    padding: 20px;
+}
+/* * ----------------------------- #section_2 Ul Li --------------------------------- */
+#section_2 ul {
+  list-style-type: circle;
+}
+#section_2 li::marker {
+  display: list-item;
+  text-align: justify;
+  font-size: 18px;
+  font-family:"OpenSans";
+  color: var(--crem);
+  list-style-position: inside;
+}
+#section_2 a:link {
+  text-decoration: none;
+  font-size: 18px;
+  font-family:"OpenSans";
+  color: var(--crem); 
+}
+#section_2 li a:visited { 
+  text-decoration: none;
+  font-size: 18px;
+  font-family:"OpenSans";
+  color: var(--crem);
+}
+#section_2 li a:hover { 
+  text-decoration: none;
+  font-size: 18px;
+  font-family:"OpenSans";
+  color:var(--lilla);
+}
+#section_2 li a:active { 
+  text-decoration: none;
+  font-size: 18px;
+  font-family:"OpenSans";
+  color: var(--crem);
+} 
+  /* ----------------------------- #section_3 Ul Li --------------------------------- */
+  #section_3 ul {
+    list-style-type: circle;
+  }
+  #section_3 li ::marker  {
+    display: list-item;
+    text-align: justify;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem);
+    list-style-position: inside;
+  }
+  #section_3 a:link {
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem); 
+  }
+  #section_3 li a:visited { 
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem);
+  }
+  #section_3 li a:hover { 
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color:var(--crem);
+  }
+  #section_3 li a:active { 
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem); 
+  }
+  /* ----------------------------- #section_4 Ul Li --------------------------------- */
+  #section_4 ul {
+    list-style-type: circle;
+  }
+  #section_4 li ::marker {
+    display: list-item;
+    text-align: justify;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem);
+    list-style-position: inside;
+  }
+  #section_4 a:link {
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem); 
+  }
+  #section_4 li a:visited { 
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem);
+  }
+  #section_4 li a:hover { 
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color:var(--lilla);
+  }
+  #section_4 li a:active { 
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem); 
+  }
+  /* ----------------------------- #section_5 Ul Li --------------------------------- */
+  #section_5 ul {
+    list-style-type: circle;
+  }
+  #section_5 li ::marker {
+    display: list-item;
+    text-align: justify;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem);
+    list-style-position: inside;
+  }
+  #section_5 a:link {
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem); 
+  }
+  #section_5 li a:visited { 
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem);
+  }
+  #section_5 li a:hover { 
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color:var(--lilla);
+  }
+  #section_5 li a:active { 
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem); 
+  }
+  /* * ----------------------------- #section_6 Ul Li --------------------------------- */
+  #section_6 ul {
+    list-style-type: circle;
+  }
+  #section_6 li::marker {
+    display: list-item;
+    text-align: justify;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem);
+    list-style-position: inside;
+  }
+  #section_6 a:link {
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem); 
+  }
+  #section_6 li a:visited { 
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem);
+  }
+  #section_6 li a:hover { 
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color:var(--lilla);
+  }
+  #section_6 li a:active { 
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"OpenSans";
+    color: var(--crem);
+  } 
+/* ----------------------------- #section_2 Typografi --------------------------------- */ 
+#section_2 h2 {
+  color: var(--crem);
+  font-family:"Oswald";
+  font-size: 30px;
+}
+#section_2 p {
+  font-family:"OpenSans";
+  color: var(--crem);
+  font-size: 16px;
+}
+/* ----------------------------- #section_3 Typografi --------------------------------- */
+#section_3 h2 {
+  color: var(--crem);
+  font-family:"Oswald";
+  font-size: 30px;
+}
+#section_3 h3 {
+  color: var(--crem);
+  font-family:"OpenSans";
+  font-weight: bold;
+  font-size: 20px;
+}
+#section_3 p {
+  font-family:"OpenSans";
+  color: var(--crem);
+  font-size: 16px;
+}
+/* ----------------------------- #section_4 Typografi --------------------------------- */
+#section_4 h2 {
+  color: var(--crem);
+  font-family:"Oswald";
+  font-size: 30px;
+}
+#section_4 h3 {
+  color: var(--crem);
+  font-family:"OpenSans";
+  font-weight: bold;
+  font-size: 20px;
+}
+#section_4 p {
+  font-family:"OpenSans";
+  color: var(--crem);
+  font-size: 16px;
+}
+#section_4_2, .flex h2 {
+  color: var(--crem);
+  font-family:"Oswald";
+  font-size: 30px;
+}
+#section_4_2 h3 {
+  color: var(--crem);
+  font-family:"OpenSans";
+  font-weight: bold;
+  font-size: 20px;
+}
+#section_4_2 p {
+  font-family:"OpenSans";
+  color: var(--crem);
+  font-size: 16px;
+}
+/* ----------------------------- #section_5 Typografi --------------------------------- */
+#section_5 h2 {
+  color: var(--crem);
+  font-family:"Oswald";
+  font-size: 30px;
+}
+#section_5 h3 {
+  color: var(--crem);
+  font-family:"OpenSans";
+  font-weight: bold;
+  font-size: 20px;
+}
+#section_5 p {
+  font-family:"OpenSans";
+  color: var(--crem);
+  font-size: 16px;
+}
+.brugernavn {
+  font-family:"OpenSans";
+  color: var(--crem);
+  font-size: 16px;
+  margin-left: 26px;
+}
+/* ----------------------------- #section_6 Typografi --------------------------------- */
+#section_6 h2 {
+  color: var(--crem);
+  font-family:"Oswald";
+  font-size: 30px;
+}
+#section_6 h3 {
+  color: var(--crem);
+  font-family:"OpenSans";
+  font-weight: bold;
+  font-size: 20px;
+}
+#section_6 p {
+  font-family:"OpenSans";
+  color: var(--crem);
+  font-size: 16px;
+}
+.brugernavn {
+  font-family:"OpenSans";
+  color: var(--crem);
+  font-size: 16px;
+  margin-left: 26px;
+}
